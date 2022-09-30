@@ -1,0 +1,84 @@
+.card {
+  background-color: rgb(218, 226, 226);
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.card-body {
+  width: 200px;
+
+}
+
+.card-style {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 7%;
+}
+
+.bg-white {
+  width: 200px;
+
+  margin-bottom: 50px;
+  border: 2px;
+  border-radius: 5%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sector {
+  border-radius: 5%;
+}
+
+.intro {
+  background-color: rgb(218, 226, 226);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 5%;
+}
+
+.break {
+  background-color: rgb(218, 226, 226);
+  padding-top: 5px;
+  border-radius: 5%;
+}
+
+.count {
+  background-color: rgb(218, 226, 226);
+  padding-top: 5px;
+  border-radius: 5%;
+}
+
+.last {
+  border-radius: 5%;
+}
+
+@media only screen and (max-width: 499px) {
+  .body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .card-style {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1000px)and (min-width:500px) {
+  .body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .card-style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
